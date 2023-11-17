@@ -4,9 +4,5 @@ public class Main {
         ToyLibrary toyLibrary = new ToyLibrary();
 
         toyLibrary.startToyLibrary();
-
-        //aishaMonitor.Blackboard blackboard = new aishaMonitor.Blackboard();
-
-        //blackboard.getMessage();
     }
 }
