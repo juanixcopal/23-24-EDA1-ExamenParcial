@@ -21,20 +21,6 @@ public class ChildrenRow {
         this.size++;
     }
 
-    public void addChildrenToRow(){
-        ChildNode newChild = new ChildNode();
-        if (this.first == null) {
-            this.first = newChild;
-        } else {
-            ChildNode iterator = this.first;
-            while (iterator.getNextChild() != null) {
-                iterator = iterator.getNextChild();
-            }
-            iterator.setNextChild(newChild);
-        }
-        this.size++;
-    }
-
     //Obtener primer niño en la cola (Lidia y Aisha)
     public String getFirstChildQueue(){
         if(this.first != null){

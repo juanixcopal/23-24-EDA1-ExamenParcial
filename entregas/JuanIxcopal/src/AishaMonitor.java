@@ -1,12 +1,13 @@
 public class AishaMonitor {
     private ChildrenRow childrenRowInAisha;
-    private boolean aishaIsPlaying = false;
+    private boolean aishaIsPlaying;
     public AishaMonitor(){
         this.childrenRowInAisha = new ChildrenRow();
+        this.aishaIsPlaying = false;
     }
 
     public void addChildrenInRowAisha(){
-        childrenRowInAisha.addChildrenToRow();
+        childrenRowInAisha.addChildrenToQueue();
     }
 
     public int childrenInRowAisha(){
